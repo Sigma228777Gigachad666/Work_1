@@ -1,1 +1,1 @@
-print(input() ,end = "Привет, ")
+print('Привет,', input() ,end = "!")
