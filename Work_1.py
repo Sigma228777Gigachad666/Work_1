@@ -1,0 +1,1 @@
+print("i", "like", "Python" ,sep='***')
