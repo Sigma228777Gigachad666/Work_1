@@ -6,3 +6,4 @@ z = int(k) % int(n)
 
 print(x)
 print(z)
+#Complete
