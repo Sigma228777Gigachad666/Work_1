@@ -5,7 +5,7 @@ b = str((int(x) % 100) // 10)
 c = str(int(x) // 100)
 
 n = c + a + b 
-s = b + a + c
+s = b + c + a
 w = b + a + c
 z = a + c + b 
 v = a + b + c
