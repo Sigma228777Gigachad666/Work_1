@@ -1,0 +1,1 @@
+print('"Python is a great language!", said Fred. "I dont ever remember having this much fun before."')
