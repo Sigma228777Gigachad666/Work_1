@@ -1,5 +1,7 @@
-x = input('Введите любое уравнение например 2+2-3: ')
+x = abs(float(input()))
+y = abs(float(input()))
+z = abs(float(input()))
+w = abs(float(input()))
+g = abs(float(input()))
 
-math = abs(eval(x))
-
-print(math)
+print(x + y + z + w + g)
