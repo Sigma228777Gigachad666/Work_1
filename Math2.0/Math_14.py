@@ -1,8 +1,2 @@
-x = int(input())
-y = int(input())
-z = int(input())
-w = int(input())
-
-math = abs(x - z) + abs(y - w)
-
-print(math)
+x,y,z,w = (int(input()) for _ in range(4))
+print(abs(x - z) + abs(y - w))

@@ -1,5 +1,4 @@
+import math
 x = float(input())
-
-first_digit_after_decimal = str(x).split('.')[1]
-                                    
-print(first_digit_after_decimal)
+fractal= math.modf(x)[0]
+print(fractal)
