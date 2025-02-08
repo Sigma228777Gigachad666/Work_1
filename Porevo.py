@@ -1,5 +1,8 @@
-number = float(input("Введите положительное действительное число"))
+def absolute_sum():
+    total = 0 
+    for _ in range(5):
+        num=float(input())
+        total += abs(num)
+    print(total)
 
-first_digit_after_decimal = str(number).split('.')[1][0]
-                                    # 3.123151251
-print(first_digit_after_decimal)
+absolute_sum()
