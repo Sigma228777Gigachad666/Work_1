@@ -1,6 +1,0 @@
-x = input()
-y = input()
-z = input()
-w = input()
-comp=int(x) + int(y) + int(z) + int(w)
-print(comp* 3)
