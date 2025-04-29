@@ -1,0 +1,1 @@
+print("Цифра" if any(c.isdigit() for c in input()) else "Цифр Нет")
