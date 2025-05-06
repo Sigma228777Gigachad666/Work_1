@@ -1,5 +1,3 @@
-Gmail = str(input('Укажите вашу почту: '))
-if Gmail.endswith("@gmail.com"):
-    print("молодец")
-else:
-    print('ты дебил такой почты нет')
+n = int(input())
+last_digit = n % 10
+print(str(n).count(str(last_digit)))
